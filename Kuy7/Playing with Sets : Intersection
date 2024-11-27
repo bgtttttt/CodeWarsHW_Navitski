@@ -1,3 +1,5 @@
+https://www.codewars.com/kata/5884d46015a70f6cd7000035/javascript
+
 function inter(s1, s2){
   let a = new Set();
   s1.forEach((x) => {
