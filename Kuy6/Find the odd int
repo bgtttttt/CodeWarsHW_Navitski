@@ -1,0 +1,18 @@
+https://www.codewars.com/kata/find-the-odd-int/
+
+function findOdd(A) {
+  let a = 0;
+  A.forEach((element) => {
+    let c = 0;
+    for (let j = 0; j < A.length; j++) {
+      if (A[j] == element) {
+        c++;
+      }
+    }
+    if (c%2==1) {
+      a = element;
+      return;
+    }
+  })
+  return a;
+}
