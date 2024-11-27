@@ -1,0 +1,9 @@
+function inter(s1, s2){
+  let a = new Set();
+  s1.forEach((x) => {
+    if (s2.has(x)) {
+      a.add(x);
+    }
+  })
+  return a;
+}
