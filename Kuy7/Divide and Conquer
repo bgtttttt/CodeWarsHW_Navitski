@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/divide-and-conquer
+
+function divCon(x){
+  return x.reduce((a, b) => a + (typeof b === 'number' ? b : -Number(b)), 0);
+}
