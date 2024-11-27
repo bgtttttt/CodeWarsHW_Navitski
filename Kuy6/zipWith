@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/zipwith
+
+function zipWith(fn,a0,a1) {
+  return a0.map((x, i) => {
+    if (typeof a1[i] !== "undefined") {return fn(x,a1[i])}
+  }).filter((x) => typeof x !== "undefined");
+}
